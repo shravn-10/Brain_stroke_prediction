@@ -9,7 +9,7 @@ import streamlit as st
 import numpy as np
 import pickle as pkl
 
-filepath="C:\\Users\\saish\\ml_internship\\brain_stroke_project\\final_submission\\brain_model.sav"
+filepath="brain_model.sav"
 
 model=pkl.load(open(filepath,"rb"))
 
